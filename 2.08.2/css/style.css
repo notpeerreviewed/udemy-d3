@@ -1,0 +1,70 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  color: grey;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container{
+
+  display: grid;
+  grid-template-rows: 45vh 45vh;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin: 1rem;
+
+
+
+}
+
+
+.item {
+  display: grid;
+  grid-template-rows: min-content auto;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: white;
+
+  justify-content: center;
+
+
+}
+
+.item--1 {
+  background-color: orangered;
+}
+
+.item--2 {
+  background-color: yellowgreen;
+}
+
+.item--3 {
+  background-color: blueviolet;
+}
+
+.item--4 {
+  background-color: palevioletred;
+}
+
+.item--5 {
+  background-color: royalblue;
+}
+
+.item--6 {
+  background-color: goldenrod;
+}
